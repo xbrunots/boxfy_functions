@@ -1,4 +1,4 @@
-function alert() {
+function BoxFy() {
   try {
     alert("deu bom")
   } catch (s) {
@@ -6,4 +6,4 @@ function alert() {
   }
 }
 
-export default alert;
+export default BoxFy
