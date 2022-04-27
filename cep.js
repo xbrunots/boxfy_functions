@@ -1,12 +1,10 @@
-var t = "18055271";
+    async function testando() {
+        var t = '18055271';
+        var response = await fetch('https://viacep.com.br/ws/' + t + '/json/');
+        var json = await response.text();
+        console.log('json');
+        console.log(json);
+        return json;
+    }
 
-fetch('https://viacep.com.br/ws/'+t+'/json/')
-    .then(function(response) {
-
-        return response.json();
-
-    }).then(function(v) {
-
-        console.log(v);
-
-    }); 
+    return testando();

@@ -1,9 +1,7 @@
-function BoxFy() {
-  try {
-    alert("deu bom")
-  } catch (s) {
-    alert(text);
-  }
-}
-
-export default BoxFy
+    async  function testando() {
+    var t = '18055271'; 
+    var response = await fetch('https://viacep.com.br/ws/'+t+'/json/'); 
+    var json = await response.text();  
+    console.log('json');
+    console.log(json);
+    return json ;
