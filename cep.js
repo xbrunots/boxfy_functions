@@ -1,4 +1,3 @@
-
 var t = "18055271";
 
 fetch('https://viacep.com.br/ws/'+t+'/json/')
@@ -10,4 +9,4 @@ fetch('https://viacep.com.br/ws/'+t+'/json/')
 
         console.log(v);
 
-    });
+    }); 
