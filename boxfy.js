@@ -1,9 +1,6 @@
-function BoxFy() {
-    try {
-        return "deu bom";
-    } catch (s) {
-        return s;
-    }
-}
-
-export default BoxFy
+ module.exports = {
+ project: "deu bom,
+ BoxFy: function() {
+      return this.project;
+ } 
+};
