@@ -3,7 +3,8 @@
                 return {
                     "email": i.email,
                     "status": i.status,
-                    "cpf": "370.176.868-45"
+                    "cpf": "370.176.868-45",
+                       "testinho" : true
                 }
             }) 
 
