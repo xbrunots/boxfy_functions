@@ -1,6 +1,13 @@
- module.exports = {
- project: "deu bom",
- BoxFy: function() {
-      return this.project;
- } 
-};
+       function addCPF(){     
+            var newData = app.data.map((i) => {
+                return {
+                    "email": i.email,
+                    "status": i.status,
+                    "cpf": "370.176.868-45"
+                }
+            }) 
+
+            return newData
+        } 
+
+        modules.exports = addCPF() 
